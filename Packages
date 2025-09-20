@@ -502,17 +502,21 @@ Package: mt-jailbreak.willow
 Version: 1.2.14
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, mt-jailbtreak.libdundas
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, mt-jailbreak.libdundas
 Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
 Filename: debs/UltraSound.deb
-Size: 331296
-MD5sum: 7a3deddb580e2f4bdcc798953a35359f
-SHA1: c8ec941b712229d34395b3b22575897f7e70a28d
-SHA256: fdcaff1bd75a380051d3a8f43bd314615cf8cd8c17e80a1b9c0bd386b7e462e4
+Size: 331298
+MD5sum: e966dbbb3857aabc45ba23c03d625759
+SHA1: 83d94cda885fdd1f12cb159f0f99cbfba525ee9b
+SHA256: 0e88ef2f3f22de2e4f0e3d684845243a57ac996a8406a6ab9ed06e3b6c50470e
 Section: Tweaks
 Description: Hiển thị âm lượng hoàn toàn mới, không phô trương và thân thiện với OLED.
 Author: Ayden Panhuyzen
 Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
 Name: UltraSound
+
+
+
+
 
 
