@@ -169,22 +169,6 @@ Author: Kritanta
 Icon: file:///Library/PreferenceBundles/HomePlusPrefs.bundle/icon@2x.png
 Name: HomePlus VH
 
-Package: mt-jailbreak.killallapps
-Version: 3.3.0
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, preferenceloader, applist, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
-Filename: debs/KillAllApps.deb
-Size: 62798
-MD5sum: a65009c41201eddcb0f4327402248d37
-SHA1: 11768871e20651d0f81492be952670a6c09f75db
-SHA256: a7fd01220df67ccc2309b31ceb51781fb718aae3d244df124440f2553820b857
-Section: Tinh chỉnh Việt hoá
-Description: Vuốt xuống trong bộ chuyển đổi ứng dụng để đóng tất cả các ứng dụng nền với đa nhiệm kiểu iPad
-Author: Hao Nguyen
-Icon: file:///Library/PreferenceBundles/KAAPref.bundle/icon@2x.png
-Name: Kill All Apps VH
-
 Package: mt-jailbreak.libactivator
 Version: 2.0
 Architecture: iphoneos-arm
@@ -388,23 +372,6 @@ Author: PoomSmart
 Icon: file:///Library/PreferenceLoader/Preferences/SwipeForMore/SFM@3x.png
 Name: SwipeForMore VH
 
-Package: mt-jailbreak.willow
-Version: 1.2.14
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, dev.ayden.ios.tweak.lib.libdundas
-Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
-Filename: debs/UltraSound.deb
-Size: 331298
-MD5sum: 122c819c37edc72a1e6a6f91f6ee3fff
-SHA1: 81f3be7282f247bd89e7a9428f35137ac7aaa5b7
-SHA256: f6c747a7693fb7ccb80b9b4864156d7ae0908b59231b701cb502c8e1eda210fd
-Section: Tweaks
-Description: Hiển thị âm lượng hoàn toàn mới, không phô trương và thân thiện với OLED.
-Author: Ayden Panhuyzen
-Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
-Name: UltraSound
-
 Package: mt-jailbreak.xb-ccmodules
 Version: 2.2
 Architecture: iphoneos-arm
@@ -480,5 +447,72 @@ Description: Chọn các trạng thái thiết bị bổ sung công suất thấ
 Tag: purpose::extension
 Icon: file:///Library/PreferenceBundles/PowercuffPref.bundle/Powercuff@3x.png
 Name: PowerCuff VH
+
+Package: mt-jailbreak.killallapps
+Version: 3.3.0
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, preferenceloader, applist, mt-jailbreak.libhdev (>= 4.6.0), firmware (>= 12)
+Filename: debs/KillAllApps.deb
+Size: 62794
+MD5sum: 808b35e1b47e815ae79ac1c4c361270a
+SHA1: a2fc35fcbd9d7207df243b90bce961a49b98d9d4
+SHA256: a8627f7c7d18426aede94523a96c42e175bf05e36a378b4bc6f3f9df38344dc9
+Section: Tinh chỉnh Việt hoá
+Description: Vuốt xuống trong bộ chuyển đổi ứng dụng để đóng tất cả các ứng dụng nền với đa nhiệm kiểu iPad
+Author: Hao Nguyen
+Icon: file:///Library/PreferenceBundles/KAAPref.bundle/icon@2x.png
+Name: Kill All Apps VH
+
+Package: mt-jailbreak.libdundas
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 332
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/Libdundas.deb
+Size: 69776
+MD5sum: 0ec24b63f6a7650797b4e8136f9e00dd
+SHA1: f58208c408520fefc91a2a3ef39f145581b81ba0
+SHA256: 377db5dc8e6326be25537846ac5f8bb32fd918d4b0ab67a08744c946dfd1d8f7
+Section: System
+Description: Tiện ích cho các tinh chỉnh.
+Tag: role::developer
+Author: Ayden Panhuyzen
+Name: libdundas
+
+Package: mt-jailbreak.libhdev
+Version: 4.8.1
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 316
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
+Filename: debs/Libhdev.deb
+Size: 76724
+MD5sum: 6af975ec432f31b39608e9f9e39706bc
+SHA1: e5e953261c75771c4b0403c4bfdc254676c9aaef
+SHA256: c4df0c8e3a0ce99aac87ab8be6779d368ab5b80803c55fafbd2d25ca1f50e521
+Section: System
+Description: Đây là thư viện dành cho nhà phát triển với các tùy chọn tốt hơn và tiện ích hữu ích.
+Tag: role::developer
+Author: Hao Nguyen
+Name: libhdev
+
+Package: mt-jailbreak.willow
+Version: 1.2.14
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, mt-jailbtreak.libdundas
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: debs/UltraSound.deb
+Size: 331296
+MD5sum: 7a3deddb580e2f4bdcc798953a35359f
+SHA1: c8ec941b712229d34395b3b22575897f7e70a28d
+SHA256: fdcaff1bd75a380051d3a8f43bd314615cf8cd8c17e80a1b9c0bd386b7e462e4
+Section: Tweaks
+Description: Hiển thị âm lượng hoàn toàn mới, không phô trương và thân thiện với OLED.
+Author: Ayden Panhuyzen
+Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
+Name: UltraSound
 
 
