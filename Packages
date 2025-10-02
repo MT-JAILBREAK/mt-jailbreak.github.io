@@ -136,22 +136,6 @@ MD5sum: 439dca67cafed3329e0617d437a01fc1
 SHA1: 0114a2adacc4159dbd62437eeee2e2900a9d144c
 SHA256: a2d5de9425ceb395572dc2d7da6c2f336cd46c1cdd29b41f62861bacf0588d5d
 
-Package: mt-jailbreak.quart
-Version: 1.4.6.1
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, com.laughingquoll.prefixui
-Filename: debs/Quart.deb
-Size: 1162108
-MD5sum: fc66861e3cb241f46fbe7fd63ec02bfc
-SHA1: bbfb2698cb30f1a6fa447de282b6837478f33863
-SHA256: aabefded0ebeba7df06bdfa07eecbdd1831be307b7ad5c2ca2587882f776fb48
-Section: Tweaks
-Description: Thiết kế lại biểu ngữ thông báo của bạn!
-Author: LaughingQuoll
-Icon: file:///Library/PreferenceBundles/QuartPrefs.bundle/icon@3x.png
-Name: Quart
-
 Package: mt-jailbreak.homeplus
 Version: 1.0
 Architecture: iphoneos-arm
@@ -206,24 +190,6 @@ Description: Thanh trạng thái dành cho thiết bị giả iPhone X (Miễn p
 Author: niceios
 Icon: file:///Library/PreferenceBundles/nicebarxbundle.bundle/icon.png
 Name: NiceBarX VH
-
-Package: mt-jailbreak.prysm
-Version: 1.9.1
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
-Conflicts: mt-jailbreak.prysm, com.laughingquoll.prysm
-Filename: debs/Prysm.deb
-Size: 1076316
-MD5sum: ab56554f30a251c57dd8e0a8e521137e
-SHA1: af6c1c6c84c97fae5091067674193535862ec159
-SHA256: 50fc8533ac5b012b5257a6f1629002653d87068d4230ba4d335049a9a8d5e556
-Section: Tweaks
-Homepage: https://mt-jailbreak.github.io/repo
-Description: Trung tâm điều khiển hoàn toàn mới.
-Author: LaughingQuoll
-Icon: file:///Library/PreferenceBundles/PrysmPrefs.bundle/icon@3x.png
-Name: Prysm
 
 Package: mt-jailbreak.shuffle
 Version: 1.7
@@ -515,17 +481,17 @@ Author: Ayden Panhuyzen
 Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
 Name: UltraSound
 
-Package: com.laughingquoll.prefixui
+Package: mt-jailbreak.prefixui
 Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Installed-Size: 204
 Depends: firmware (<< 12.0) | ws.hbang.alderis (>= 1.1), firmware (>= 12.0) | org.thebigboss.libcolorpicker, com.spark.libsparkapplist
 Filename: debs/Prefixui.deb
-Size: 41886
-MD5sum: f479dd5bd8516e4442efa2887404aa2f
-SHA1: f3f68734e52f517f9d4c85671eb61040101c0516
-SHA256: 1b4675b2e5df95e5a27728e2ffe9078852de923da03d3b73e992bdc6fe8a0103
+Size: 41890
+MD5sum: 6b196a4b41181c79485a19a77e8a3866
+SHA1: a325576f99e6ea2d723765ca5f365b662807071c
+SHA256: 079dec50133e770941fc1674cbbe323e647d68281a09cba4abf1917f163fc4c5
 Section: System
 Description: An awesome framework of some sort!
 Tag: role::developer, compatible_min::ios11.0
@@ -533,3 +499,38 @@ Author: LaughingQuoll <me@laughingquoll.net>
 Depiction: https://chariz.com/get/prefixui
 Icon: https://chariz.com/cdn/icon/prefixui/icon@3x.png
 Name: PrefixUI
+
+Package: mt-jailbreak.prysm
+Version: 1.9.1
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, mt-jailbreak.prefixui, com.opa334.ccsupport
+Conflicts: mt-jailbreak.prysm, com.laughingquoll.prysm
+Filename: debs/Prysm.deb
+Size: 1076318
+MD5sum: 4747a598a1c43ec8709262ace645bec9
+SHA1: 44689d79516ce3e90e4d3b8599e0187ffad6d985
+SHA256: 4122848d2b21637d34cbc5cc2b10e5c9929fe8a8472e66983bdc2d9720cdf519
+Section: Tweaks
+Homepage: https://mt-jailbreak.github.io/repo
+Description: Trung tâm điều khiển hoàn toàn mới.
+Author: LaughingQuoll
+Icon: file:///Library/PreferenceBundles/PrysmPrefs.bundle/icon@3x.png
+Name: Prysm
+
+Package: mt-jailbreak.quart
+Version: 1.4.6.1
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, mt-jailbreak.prefixui
+Filename: debs/Quart.deb
+Size: 1162106
+MD5sum: 6ce00181c96af1d177a96a8c8d43bd37
+SHA1: 8a3edc0e2249248866a40f8c90fe49ce3209d357
+SHA256: 6df4d993db949d2df87e0803d8989e69ba9a8828b2710bf4d95df0bb4eac9214
+Section: Tweaks
+Description: Thiết kế lại biểu ngữ thông báo của bạn!
+Author: LaughingQuoll
+Icon: file:///Library/PreferenceBundles/QuartPrefs.bundle/icon@3x.png
+Name: Quart
+
