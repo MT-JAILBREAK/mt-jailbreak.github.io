@@ -481,17 +481,33 @@ Author: Ayden Panhuyzen
 Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
 Name: UltraSound
 
+Package: mt-jailbreak.libsparkapplist
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 404
+Filename: debs/Libsparkapplist.deb
+Size: 55026
+MD5sum: 08d12f993f620b9752353126c128b0da
+SHA1: 5acafba5cdf31a5e47d27ac8d86e58e052ad7b46
+SHA256: 1d025b58ebcb92e9d8382b14f60e7aeac92114eadb2a3884dd81fdb613ef20d7
+Section: Development
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+
 Package: mt-jailbreak.prefixui
 Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Installed-Size: 204
-Depends: firmware (<< 12.0) | ws.hbang.alderis (>= 1.1), firmware (>= 12.0) | org.thebigboss.libcolorpicker, com.spark.libsparkapplist
+Depends: firmware (<< 12.0) | ws.hbang.alderis (>= 1.1), firmware (>= 12.0) | org.thebigboss.libcolorpicker, mt-jailbreak.libsparkapplist
 Filename: debs/Prefixui.deb
 Size: 41890
-MD5sum: 6b196a4b41181c79485a19a77e8a3866
-SHA1: a325576f99e6ea2d723765ca5f365b662807071c
-SHA256: 079dec50133e770941fc1674cbbe323e647d68281a09cba4abf1917f163fc4c5
+MD5sum: 34266266a5a60bdf2b8af7d5568ee9e4
+SHA1: b45e8a784ba8d3acfbb25de4c00235ddaa1229db
+SHA256: 059065d27d2afcee0c54262263b7e252ebd1ca3bc9d0413c5e3ff49a7d7df09f
 Section: System
 Description: An awesome framework of some sort!
 Tag: role::developer, compatible_min::ios11.0
