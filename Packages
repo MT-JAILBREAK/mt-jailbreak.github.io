@@ -500,19 +500,19 @@ Author: Ryan Nair
 Icon: file:///Library/PreferenceBundles/KeyboardPlus.bundle/icon@2x.png
 Name: KeyboardPlus VH
 
-Package: mt-jailbreak.prysm
-Version: 1.9.1
+Package: com.laughingquoll.prysm
+Version: 1.9.2
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
-Conflicts: mt-jailbreak.prysm, com.laughingquoll.prysm
+Depends: mobilesubstrate, mt-jailbreak.prefixui, com.opa334.ccsupport
+Conflicts: com.laughingquoll.prysm
 Filename: debs/Prysm.deb
-Size: 1076320
-MD5sum: 67563371a29090d9047aa4bf148d2f57
-SHA1: 841d3bdc3a57f228a5023cb9eccfe372ad854ed1
-SHA256: b50e1df800c0ff91d008b859159b2b3d107acef3a7dd9cd0b25eebf7442e759d
+Size: 830956
+MD5sum: 2732847ddd9ac311d38d48634d884d25
+SHA1: b6926eb6c0d30fbddc3a12316df164a75ea02e3d
+SHA256: fb02d64b19200e0e0211bef65592d2d9de104712a5fe2c02a75835e4e1198051
 Section: Tweaks
-Homepage: https://mt-jailbreak.github.io/repo
+Homepage: https://mt-jailbreak.github.io
 Description: Trung tâm điều khiển hoàn toàn mới.
 Author: LaughingQuoll
 Icon: file:///Library/PreferenceBundles/PrysmPrefs.bundle/icon@3x.png
