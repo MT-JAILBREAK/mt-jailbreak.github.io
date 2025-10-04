@@ -484,22 +484,6 @@ Depiction: https://chariz.com/get/prefixui
 Icon: https://chariz.com/cdn/icon/prefixui/icon@3x.png
 Name: PrefixUI
 
-Package: com.spark.libsparkapplist
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 404
-Filename: debs/Libsparkapplist.deb
-Size: 55024
-MD5sum: dbe4f40c1afa43476c7b633f0d126362
-SHA1: 47184fbfbeaf86d2e4c83f4c4025f9348bc6f829
-SHA256: c78e7b9ac24118f7d7e87fcbfd76b88b57825e254b9ce233ab286220aee18ae1
-Section: System
-Description: AppList alternative
-Tag: role::developer
-Author: Spark
-Name: libSparkAppList
-
 Package: mt-jailbreak.keyboardplus
 Version: 2.1
 Architecture: iphoneos-arm
@@ -549,4 +533,20 @@ Description: Thiết kế lại biểu ngữ thông báo của bạn!
 Author: LaughingQuoll
 Icon: file:///Library/PreferenceBundles/QuartPrefs.bundle/icon@3x.png
 Name: Quart
+
+Package: com.spark.libsparkapplist
+Version: 1.1.10
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 404
+Filename: debs/Libsparkapplist.deb
+Size: 55024
+MD5sum: 4bdf6ac7e13636ecc62605c758c9effe
+SHA1: d4dd6006b1567dfbbd1e453770c3d3b0c098b79f
+SHA256: 76d6c8b48cbcdafe2986ff7caca97c38e218cfa8311bc49350394cb6a833220a
+Section: System
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
 
