@@ -289,22 +289,6 @@ Name: SnowBoard VH
 Someotherentrytocontrol: True
 Tags: compatible_min::ios7.0, compatible_max::ios14.8.1
 
-Package: mt-jailbreak.keyboardplus
-Version: 2.1
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: debs/KeyboardPlus.deb
-Size: 429708
-MD5sum: 501d4fd73a667043c39a809617ca296d
-SHA1: 10200bed8fa1d3e37842e9096180ae541eb0fe4b
-SHA256: 51bde66a7fe0629d2ec99d66d013aa0d97ac1427bd86b61fa8803575071218fb
-Section: Tinh chỉnh Việt hoá
-Description: Bổ sung các tính năng cho bàn phím của bạn!
-Author: Ryan Nair
-Icon: file:///Library/PreferenceBundles/KeyboardPlus.bundle/icon@2x.png
-Name: KeyboardPlus VH
-
 Package: mt-jailbreak.lower
 Version: 1.6
 Architecture: iphoneos-arm
@@ -481,33 +465,17 @@ Author: Ayden Panhuyzen
 Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
 Name: UltraSound
 
-Package: mt-jailbreak.libsparkapplist
-Version: 1.0.10
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 404
-Filename: debs/Libsparkapplist.deb
-Size: 55026
-MD5sum: 08d12f993f620b9752353126c128b0da
-SHA1: 5acafba5cdf31a5e47d27ac8d86e58e052ad7b46
-SHA256: 1d025b58ebcb92e9d8382b14f60e7aeac92114eadb2a3884dd81fdb613ef20d7
-Section: Development
-Description: AppList alternative
-Tag: role::developer
-Author: Spark
-Name: libSparkAppList
-
-Package: mt-jailbreak.prefixui
-Version: 1.3.1
+Package: com.laughingquoll.prefixui
+Version: 1.3.2
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Installed-Size: 204
-Depends: firmware (<< 12.0) | ws.hbang.alderis (>= 1.1), firmware (>= 12.0) | org.thebigboss.libcolorpicker, mt-jailbreak.libsparkapplist
+Depends: firmware (<< 12.0) | ws.hbang.alderis (>= 1.1), firmware (>= 12.0) | org.thebigboss.libcolorpicker, com.spark.libsparkapplist
 Filename: debs/Prefixui.deb
 Size: 41890
-MD5sum: 34266266a5a60bdf2b8af7d5568ee9e4
-SHA1: b45e8a784ba8d3acfbb25de4c00235ddaa1229db
-SHA256: 059065d27d2afcee0c54262263b7e252ebd1ca3bc9d0413c5e3ff49a7d7df09f
+MD5sum: e5fdb1b287a49ae99380ff3f0d62dca7
+SHA1: 4b5f2f9ca18a3513e14a8e412b64200b70ee64b0
+SHA256: 963d7019990362c03df21c61e69fb542826223a0e54039cae121b45d118c6d31
 Section: System
 Description: An awesome framework of some sort!
 Tag: role::developer, compatible_min::ios11.0
@@ -516,17 +484,49 @@ Depiction: https://chariz.com/get/prefixui
 Icon: https://chariz.com/cdn/icon/prefixui/icon@3x.png
 Name: PrefixUI
 
+Package: com.spark.libsparkapplist
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 404
+Filename: debs/Libsparkapplist.deb
+Size: 55024
+MD5sum: dbe4f40c1afa43476c7b633f0d126362
+SHA1: 47184fbfbeaf86d2e4c83f4c4025f9348bc6f829
+SHA256: c78e7b9ac24118f7d7e87fcbfd76b88b57825e254b9ce233ab286220aee18ae1
+Section: System
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+
+Package: mt-jailbreak.keyboardplus
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: debs/KeyboardPlus.deb
+Size: 429686
+MD5sum: e1296bbbba9568bb6ea6c2447d2d9e92
+SHA1: b35bda26bd0c85e8e9ae4311ba36795daa796af4
+SHA256: 150cd3cc3265e4217fa988c9a315d5516f78c30e180699a40e2b3136c92cac7b
+Section: Tinh chỉnh Việt hoá
+Description: Bổ sung các tính năng cho bàn phím của bạn!
+Author: Ryan Nair
+Icon: file:///Library/PreferenceBundles/KeyboardPlus.bundle/icon@2x.png
+Name: KeyboardPlus VH
+
 Package: mt-jailbreak.prysm
 Version: 1.9.1
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, mt-jailbreak.prefixui, com.opa334.ccsupport
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
 Conflicts: mt-jailbreak.prysm, com.laughingquoll.prysm
 Filename: debs/Prysm.deb
-Size: 1076318
-MD5sum: 4747a598a1c43ec8709262ace645bec9
-SHA1: 44689d79516ce3e90e4d3b8599e0187ffad6d985
-SHA256: 4122848d2b21637d34cbc5cc2b10e5c9929fe8a8472e66983bdc2d9720cdf519
+Size: 1076320
+MD5sum: 67563371a29090d9047aa4bf148d2f57
+SHA1: 841d3bdc3a57f228a5023cb9eccfe372ad854ed1
+SHA256: b50e1df800c0ff91d008b859159b2b3d107acef3a7dd9cd0b25eebf7442e759d
 Section: Tweaks
 Homepage: https://mt-jailbreak.github.io/repo
 Description: Trung tâm điều khiển hoàn toàn mới.
@@ -538,12 +538,12 @@ Package: mt-jailbreak.quart
 Version: 1.4.6.1
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, mt-jailbreak.prefixui
+Depends: mobilesubstrate, com.laughingquoll.prefixui
 Filename: debs/Quart.deb
-Size: 1162106
-MD5sum: 6ce00181c96af1d177a96a8c8d43bd37
-SHA1: 8a3edc0e2249248866a40f8c90fe49ce3209d357
-SHA256: 6df4d993db949d2df87e0803d8989e69ba9a8828b2710bf4d95df0bb4eac9214
+Size: 1162110
+MD5sum: 0b7875467737057f2d5795ef592ee188
+SHA1: 0a844781562593d4d69f2475e5af32eea7e8f299
+SHA256: 37f3eb417592afaa47d32b104b3679e4fdfd9aa88c18a8752216ab3625fb1544
 Section: Tweaks
 Description: Thiết kế lại biểu ngữ thông báo của bạn!
 Author: LaughingQuoll
