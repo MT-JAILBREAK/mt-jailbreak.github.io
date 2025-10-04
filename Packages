@@ -504,13 +504,13 @@ Package: com.laughingquoll.prysm
 Version: 1.9.2
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, mt-jailbreak.prefixui, com.opa334.ccsupport
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
 Conflicts: com.laughingquoll.prysm
 Filename: debs/Prysm.deb
-Size: 830956
-MD5sum: 2732847ddd9ac311d38d48634d884d25
-SHA1: b6926eb6c0d30fbddc3a12316df164a75ea02e3d
-SHA256: fb02d64b19200e0e0211bef65592d2d9de104712a5fe2c02a75835e4e1198051
+Size: 1076280
+MD5sum: c71d0f86f28bda968be737f45db1ad36
+SHA1: 3ec5465307feeccad4e4fb0c9d8b9e494bc8ad3f
+SHA256: 9d807e78ed5cb3269902698cce24971afeb2af2101032ab4be9f23da67a6cee2
 Section: Tweaks
 Homepage: https://mt-jailbreak.github.io
 Description: Trung tâm điều khiển hoàn toàn mới.
