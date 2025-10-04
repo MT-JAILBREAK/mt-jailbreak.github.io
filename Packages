@@ -211,16 +211,16 @@ Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle VH
 Tags: compatible_min::ios10, compatible_max::ios15
 
-Package: mt-jailbreak.homegesture
-Version: 2.1.4
+Package: com.vitataf.homegesture
+Version: 2.1.5
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker
 Filename: debs/HomeGesture.deb
-Size: 2297300
-MD5sum: c8864c8fc79a943ccb6affedd224e2c0
-SHA1: a2bcbdf890aba8018e02096824c591340ec0658e
-SHA256: 9d2211fdbb01ed611100d7d5dc5cff7a87ac9ef8263709503d05a8757346e5d9
+Size: 2297294
+MD5sum: 5989417f1258c8d9794885b82e64622f
+SHA1: 9fad3bb7bdbd220f16de6fd0fd9a7c9dab5a1bf7
+SHA256: e9001ec170ea225cdaddee940953b6165ad6afdb08a48c4058d52ac64cd81d85
 Section: Tinh chỉnh Việt hoá
 Description: Cử chỉ iPhone X cho thiết bị đời thấp
 Author: VitaTaf
