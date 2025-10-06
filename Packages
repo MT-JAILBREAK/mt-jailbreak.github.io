@@ -656,3 +656,22 @@ Author: jailbreak365
 Icon: file:///Applications/Cydia.app/Sections/Addons.png
 Name: CCModules VH
 
+Package: mt-jailbreak.folderautoclose10
+Version: 12.0
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 99
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/FolderAutoClose.deb
+Size: 4752
+MD5sum: 8dbf70b54f4f0dbf19c587f39578dba1
+SHA1: 04d4eaea73c2fd2f0f9c7348f350b32eef32bcc1
+SHA256: edbea3af0dd66718bb8b0fbbd529a13cc3458c27d2cc2dc1b68b230cbf982146
+Section: Tweaks
+Priority: optional
+Description: Tự động đóng thư mục sau khi mở ứng dụng.
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+Author: yuripeyamashita <yuripe.dev@gmail.com>
+Dev: yuripeyamashita
+Name: FolderAutoClose
+
