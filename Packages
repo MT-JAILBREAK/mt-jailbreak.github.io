@@ -550,39 +550,6 @@ Tag: role::developer
 Author: Spark
 Name: libSparkAppList
 
-Package: mt-jailbeak.filza
-Version: 4.0.1-2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 34948
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
-Filename: debs/Filza.deb
-Size: 13940110
-MD5sum: 63b6fc9688dc2cac7d01cef8a02fe0fd
-SHA1: 3dc2b7f0bf530c85cf0ad502754a616ad8a8a882
-SHA256: 7a6fe5874cc4be4b79a050b799fb17213c863371b579767abefad9595fc8d3c1
-Section: Utilities
-Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
-Author: TIGI Software
-Icon: file:///Applications/Filza.app/AppIcon.png
-Name: Filza File Manager VH
-
-Package: mt-jailbreak.ccmodules
-Version: 1.5-2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Filename: debs/CCModules.deb
-Size: 1497880
-MD5sum: a5b35770e87c16ed4e0149de337b9638
-SHA1: 56709eb48f834674a73dfd736e5406f99c8aed13
-SHA256: 5da48cb0d65e90f4113f3c5ae3116c9e4640242afc3a541d9318e1629c24063e
-Section: Trung tâm thông báo
-Description: Thêm Mô-đun cho trung tâm điều khiển cho iOS 11-15.
-Author: jailbreak365
-Icon: file:///Applications/Cydia.app/Sections/Addons.png
-Name: CCModules VH
-
 Package: mt-jailbreak.fbads
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -658,4 +625,37 @@ Author: ichitaso <willfeeltips@gmail.com>
 Dev: ichitaso
 Icon: file:///Library/ControlCenter/Bundles/QuickWiFiCC.bundle/SettingsIcon@2x.png
 Name: QuickWiFi
+
+Package: mt-jailbeak.filza
+Version: 4.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: debs/Filza.deb
+Size: 13940110
+MD5sum: a1e6abd67b3e41bdb93c42c00257c747
+SHA1: 8ec0a59d472fe7a0a2926e6c5450d642e2118ba4
+SHA256: a497371622c26363e7469ca5e7cfa34462a839da619708b9fffa6a6f2dcd4ac1
+Section: Tinh chỉnh Việt hoá
+Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
+Author: TIGI Software
+Icon: file:///Applications/Filza.app/AppIcon.png
+Name: Filza File Manager VH
+
+Package: mt-jailbreak.ccmodules
+Version: 1.5-2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Filename: debs/CCModules.deb
+Size: 1497874
+MD5sum: f086d40a687fd8f55bc38cd5fe93344c
+SHA1: a3a903689e156b74c557f5bc24c01eddec615957
+SHA256: 54202bfface3b45d3edd6d87973b1e639951e39ba922dc136244535dc6168f98
+Section: Trung tâm điều khiển
+Description: Thêm Mô-đun cho trung tâm điều khiển cho iOS 11-15.
+Author: jailbreak365
+Icon: file:///Applications/Cydia.app/Sections/Addons.png
+Name: CCModules VH
 
