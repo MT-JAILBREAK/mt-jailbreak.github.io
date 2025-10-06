@@ -583,27 +583,24 @@ Author: Ivano Bilenchi
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro VH
 
-Package: mt-jailbreak.quickcc
-Version: 1.0.4
+Package: com.ichitaso.quickcc
+Version: 1.1.4
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Installed-Size: 409
 Depends: firmware (>= 11.0), firmware (<< 13.0), mobilesubstrate, preferenceloader (>= 2.2.4~beta1)
 Filename: debs/QuickCC.deb
-Size: 88506
-MD5sum: a79cd164e5920c8720b4d8253f5c05cd
-SHA1: 75dfd949502c8a8d05935bb604f037b9ffc6293a
-SHA256: 2a6da4ff5c3b70adfcce90f2cdb9206e468859ccb0fd0ee1a0c398885356b1c2
+Size: 88440
+MD5sum: e824cb0be99ace2866d52e0f38703bb4
+SHA1: e68cb902a605d9d30dbcef50b9045df068fd5d8e
+SHA256: 82743e13df6d02e791e205d2451e83f4d98ccf65d961a0fd5524af194e1d810e
 Section: Trung tâm điều khiển
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=quickccDp
 Description: Chuyển đổi Wifi và Bluetooth nhanh chóng trong Trung tân điều khiển
 Tag: purpose::extension, compatible::ios11, compatible::ios12
 Author: ichitaso <willfeeltips+qcc@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=quickccDp
 Dev: ichitaso
 Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: mt-jailbreak.quickwifi11
 Version: 1.1-6
