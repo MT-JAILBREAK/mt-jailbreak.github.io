@@ -675,3 +675,22 @@ Author: yuripeyamashita <yuripe.dev@gmail.com>
 Dev: yuripeyamashita
 Name: FolderAutoClose
 
+Package: jp.soh.reprovision
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: debs/ReProvissionR.deb
+Size: 16789240
+MD5sum: d62d4f3dc89bc55aab313470eae80a68
+SHA1: 4a4c03ee793657990f614edc92794a43927bcd23
+SHA256: fd30ae89ed027c3073ffc30e7a43b8bb343e422a90c0151225912c05c9d267ae
+Section: Tweaks
+Priority: optional
+Description: Đăng ký lại các ứng dụng trên thiết bị của bạn
+Author: Soh Satoh, Matt Clarke
+Dev: Matt Clarke
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: ReProvision Reborn
+
