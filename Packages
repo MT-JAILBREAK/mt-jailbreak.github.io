@@ -684,13 +684,13 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: debs/iCleanerPro.deb
-Size: 2155984
-MD5sum: a9833eae3c64c30ffe1d6c98912e3211
-SHA1: 03cb3a31354dde6c73fb420ca4137979b3f4b9e4
-SHA256: f91b8681b6a6008c19144f0fb333546faa50e27795fe69d5ad5db01011cf2d33
+Size: 2155982
+MD5sum: 9f9157b5c1fb5f17255e9329299977fe
+SHA1: 72386283cd7df9fdd9f85ca65fd1e949f8c512a8
+SHA256: 459ca7086183f8f85696fa0a882e3afb15213dc7148bda3e7782bcd453e6d1ec
 Section: Tinh chỉnh Việt hoá
 Description: Trình dọn dẹp và tối ưu hóa hệ thống iOS tốt nhất.
 Author: Ivano Bilenchi
-Icon: file:///Applications/iCleaner.app/Icon-76@2x.png
+Icon: file:///Applications/iCleaner.app/Icon-60.png
 Name: iCleaner Pro VH
 
