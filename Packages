@@ -565,43 +565,6 @@ Description: Xoá tất cả mọi quảng cáo Facebook
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: Chặn Quảng Cáo Facebook
 
-Package: mt-jailbreak.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: debs/IcleanerPro.deb
-Size: 2155974
-MD5sum: b5119b9a9215a1cd1e64184b7e8d59f7
-SHA1: 7504b1c853827fa19bf2b3303c3c6087d973a8a7
-SHA256: 9145755339c399394d2ae4d5b3acc1da50ebaa630ab97c0953f2b73b01186277
-Section: Tinh chỉnh Việt hoá
-Description: Trình dọn dẹp và tối ưu hóa hệ thống iOS tốt nhất.
-Author: Ivano Bilenchi
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner Pro VH
-
-Package: com.ichitaso.quickcc
-Version: 1.1.4
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 409
-Depends: firmware (>= 11.0), firmware (<< 13.0), mobilesubstrate, preferenceloader (>= 2.2.4~beta1)
-Filename: debs/QuickCC.deb
-Size: 88440
-MD5sum: e824cb0be99ace2866d52e0f38703bb4
-SHA1: e68cb902a605d9d30dbcef50b9045df068fd5d8e
-SHA256: 82743e13df6d02e791e205d2451e83f4d98ccf65d961a0fd5524af194e1d810e
-Section: Trung tâm điều khiển
-Description: Chuyển đổi Wifi và Bluetooth nhanh chóng trong Trung tân điều khiển
-Tag: purpose::extension, compatible::ios11, compatible::ios12
-Author: ichitaso <willfeeltips+qcc@gmail.com>
-Dev: ichitaso
-Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
-Name: QuickCC
-
 Package: mt-jailbreak.quickwifi11
 Version: 1.1-6
 Architecture: iphoneos-arm
@@ -622,24 +585,6 @@ Author: ichitaso <willfeeltips@gmail.com>
 Dev: ichitaso
 Icon: file:///Library/ControlCenter/Bundles/QuickWiFiCC.bundle/SettingsIcon@2x.png
 Name: QuickWiFi
-
-Package: mt-jailbeak.filza
-Version: 4.0.1-2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 34948
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
-Filename: debs/Filza.deb
-Size: 13940110
-MD5sum: a1e6abd67b3e41bdb93c42c00257c747
-SHA1: 8ec0a59d472fe7a0a2926e6c5450d642e2118ba4
-SHA256: a497371622c26363e7469ca5e7cfa34462a839da619708b9fffa6a6f2dcd4ac1
-Section: Tinh chỉnh Việt hoá
-Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
-Author: TIGI Software
-Icon: file:///Applications/Filza.app/AppIcon.png
-Name: Filza File Manager VH
 
 Package: mt-jailbreak.ccmodules
 Version: 1.5-2
@@ -693,4 +638,59 @@ Author: Soh Satoh, Matt Clarke
 Dev: Matt Clarke
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: ReProvision Reborn
+
+Package: com.ichitaso.quickcc
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 409
+Depends: firmware (>= 11.0), firmware (<< 13.0), mobilesubstrate, preferenceloader (>= 2.2.4~beta1)
+Filename: debs/QuickCC.deb
+Size: 88438
+MD5sum: c32b8e93c4455665a37ec570c64134ac
+SHA1: d57aded4508230bba6d28a54ebb06cbf7b71bf55
+SHA256: dc7e32f069df89d2a9ee31ca24671adf0a9c82c5909b0867d0ff16ddff25393a
+Section: Trung tâm điều khiển
+Description: Chuyển đổi Wifi và Bluetooth nhanh chóng trong Trung tâm điều khiển
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: ichitaso <willfeeltips+qcc@gmail.com>
+Dev: ichitaso
+Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@3x.png
+Name: QuickCC
+
+Package: mt-jailbeak.filza
+Version: 4.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: debs/Filza.deb
+Size: 13940128
+MD5sum: f245aa8df66a482e6bf2f478c6e016af
+SHA1: 2a4c53c302044cea49a6e1be0fdb49859135614a
+SHA256: d370951efa01033929b3dff4e985275f333402aa6e5cbd27bf0aa3a8566efa75
+Section: Tinh chỉnh Việt hoá
+Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
+Author: TIGI Software
+Icon: file:///Applications/Filza.app/AppIcon60x60@3x.png
+Name: Filza File Manager VH
+
+Package: mt-jailbreak.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro.deb
+Size: 2155984
+MD5sum: a9833eae3c64c30ffe1d6c98912e3211
+SHA1: 03cb3a31354dde6c73fb420ca4137979b3f4b9e4
+SHA256: f91b8681b6a6008c19144f0fb333546faa50e27795fe69d5ad5db01011cf2d33
+Section: Tinh chỉnh Việt hoá
+Description: Trình dọn dẹp và tối ưu hóa hệ thống iOS tốt nhất.
+Author: Ivano Bilenchi
+Icon: file:///Applications/iCleaner.app/Icon-76@2x.png
+Name: iCleaner Pro VH
 
